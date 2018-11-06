@@ -9,7 +9,8 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "tslint --project tsconfig.json --type-check --force"
+    "lint": "tslint --project tsconfig.json --type-check --force",
+    "test": "tests/test.sh"
   },
   "keywords": [],
   "author": "Clive",
